@@ -1,6 +1,6 @@
 import React from 'react'
 
-// 使用es6方式来定义组件
+// 使用es6方式来定义组件  
 class Clock extends React.Component {
 
   constructor(props) {
