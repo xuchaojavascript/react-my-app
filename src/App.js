@@ -6,7 +6,8 @@ import './App.css'
 // import NumberList from './core/numberList'
 // import NameForm from './core/nameForm'
 // import StatePromote from './core/statePromote'
-import Combination from './core/combination'
+// import Combination from './core/combination'
+import Chess from './chess/chess'
 
 function App() {
   // 时钟与组件独立渲染
@@ -44,8 +45,13 @@ function App() {
   // )
 
   // 组合
+  // return (
+  //   <Combination />
+  // )
+
+  // 井字棋
   return (
-    <Combination />
+    <Chess />
   )
 }
 
